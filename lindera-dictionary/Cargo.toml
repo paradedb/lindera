@@ -35,8 +35,5 @@ thiserror.workspace = true
 yada.workspace = true
 memmap2 = { workspace = true, optional = true }
 
-[build-dependencies]
-reqwest.workspace = true
-
 [dev-dependencies]
 rand.workspace = true
