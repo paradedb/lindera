@@ -29,12 +29,14 @@ flate2 = { workspace = true }
 glob.workspace = true
 log.workspace = true
 once_cell.workspace = true
-reqwest.workspace = true
 serde.workspace = true
 tar = { workspace = true }
 thiserror.workspace = true
 yada.workspace = true
 memmap2 = { workspace = true, optional = true }
+
+[build-dependencies]
+reqwest.workspace = true
 
 [dev-dependencies]
 rand.workspace = true
